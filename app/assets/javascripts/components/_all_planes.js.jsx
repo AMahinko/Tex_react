@@ -19,7 +19,6 @@ var AllPlanes = React.createClass({
         <Plane plane={this.props.planes[i]}
         clickDelete = {this.clickDelete.bind(this, this.props.planes[i].id)}
         onUpdate={this.onUpdate}/>
-      />
       <hr/>
       </div>)
       console.log(this.props.planes[i])
