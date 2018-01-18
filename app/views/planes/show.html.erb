@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+
+<p>
+  <strong>Id:</strong>
+  <%= @plane.id %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @plane.description %>
+</p>
+
+<p>
+  <strong>Datetime:</strong>
+  <%= @plane.datetime %>
+</p>
+
+<p>
+  <strong>Longitude:</strong>
+  <%= @plane.longitude %>
+</p>
+
+<p>
+  <strong>Latitude:</strong>
+  <%= @plane.latitude %>
+</p>
+
+<p>
+  <strong>Elevation:</strong>
+  <%= @plane.elevation %>
+</p>
+
+<%= link_to 'Edit', edit_plane_path(@plane) %> |
+<%= link_to 'Back', planes_path %>
